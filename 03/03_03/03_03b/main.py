@@ -7,3 +7,9 @@ user_preferences = {
     "volume_level": 80,
     "date_format": "MM/DD/YYYY"
 }
+
+user_preferences["language"]="Kiswahili"
+user_preferences["fav_dish"]="omena"
+
+for key, value in user_preferences.items():
+  print(f"{key} | {value}")
